@@ -1,0 +1,11 @@
+spring.application.name: bot-messenger-gateway
+spring.boot.admin.client.enabled: false
+server.error.whitelabel.enabled: false
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: false
+  shutdown:
+    enabled: false
